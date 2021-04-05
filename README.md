@@ -31,7 +31,7 @@ const domain: string = location.origin
 const subDomain: string = '/wordpress'
 ```
 
-If you want to map with a differnt attribute or meta value edit this like in `admin/class-cm-prod-img-map-admin.php`
+If you want to map products with images named after a different attribute or meta value, edit this line in `admin/class-cm-prod-img-map-admin.php`
 
 ```php
 $sku = $product->get_sku();
