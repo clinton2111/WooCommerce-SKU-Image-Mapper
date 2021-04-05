@@ -21,15 +21,6 @@
 			   value='<?php echo get_option( 'placeholder_img_attachment_id' ); ?>'>
 		<input type="submit" name="submit_image_selector" value="Save" class="button-primary">
 	</form>
-
-	<!--	<form method="post" action="options.php">-->
-	<!--		-->
-	<!--		--><?php
-	//		settings_fields( 'cm-prod-img-map-g1' ); // settings group name
-	//		do_settings_sections( 'cm-prod-img-map-g1' ); // just a page slug
-	//		submit_button();
-	//		?>
-	<!--	</form>-->
 	<hr>
 	<h2>Begin Mapping</h2>
 	<?php
